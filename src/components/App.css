@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.height {
+  height:70px;
+}
+
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+  height: 60px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid blue
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 16px
+}
+.bg_card:nth-child(5n +  1) .card_note{
+  background:linear-gradient(#a8ff78,#78ffd6);
+}
+.bg_card:nth-child(5n + 2) .card_note{
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+.bg_card:nth-child(5n + 3) .card_note{
+  background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+.bg_card:nth-child(5n + 4) .card_note{
+  background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+}
+.bg_card:nth-child(5n + 5) .card_note{
+  background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+}
